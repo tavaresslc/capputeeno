@@ -1,0 +1,606 @@
+{
+  "data": {
+    "allProducts": [
+      {
+        "id": "2c6d30ff-adc1-4506-a10a-4cf9cd1681bd",
+        "name": "Camiseta evening",
+        "price_in_cents": 7608,
+        "category": "t-shirts",
+        "sales": 22,
+        "created_at": "2023-02-11T00:46:10.041Z",
+        "description": "Iste velit fuga hic veniam. Quaerat sunt similique nihil consequatur neque ut. Nobis in aut excepturi quas amet ad optio culpa. Enim nobis ea deserunt aut dolore veritatis alias. Libero sunt tenetur.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-02.jpg"
+      },
+      {
+        "id": "17cc2db1-c176-4e8d-a593-ecc7417e1951",
+        "name": "Caneca The Grounds",
+        "price_in_cents": 4563,
+        "category": "mugs",
+        "sales": 33,
+        "created_at": "2023-01-05T20:31:27.867Z",
+        "description": "Magni earum alias quae est voluptatum sed vero. Dolorem repudiandae cum sed vel vitae ut ipsam at. Voluptatum sunt atque consequatur consequatur. Officia perspiciatis amet laboriosam voluptas.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-05.jpg"
+      },
+      {
+        "id": "ee4593b8-34d5-4a78-8fbf-501fe9e29e75",
+        "name": "Caneca de cerâmica rústica",
+        "price_in_cents": 9225,
+        "category": "mugs",
+        "sales": 10,
+        "created_at": "2023-01-09T10:22:59.524Z",
+        "description": "Officiis dolores voluptas molestias animi recusandae et veniam nobis amet. Deserunt omnis unde explicabo aut pariatur autem. Ea facilis voluptatem omnis illo esse. Adipisci explicabo sed quos iure omnis qui nam sequi et.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-06.jpg"
+      },
+      {
+        "id": "1aee0e31-f625-4f71-ad3e-92f11d0daf96",
+        "name": "Camiseta not today.",
+        "price_in_cents": 3211,
+        "category": "t-shirts",
+        "sales": 27,
+        "created_at": "2023-09-01T01:15:01.176Z",
+        "description": "Et quisquam repudiandae voluptatem rerum quaerat nostrum et dolorem eaque. Cupiditate reiciendis asperiores voluptatem amet molestiae sed et sint excepturi. Minima et accusantium debitis praesentium et praesentium in.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-05.jpg"
+      },
+      {
+        "id": "ca397bfa-c0fc-4696-9572-68a91a1e76bb",
+        "name": "Caneca Never settle",
+        "price_in_cents": 4830,
+        "category": "mugs",
+        "sales": 25,
+        "created_at": "2022-10-13T09:35:38.645Z",
+        "description": "Maiores nulla veniam in ratione deleniti molestiae officiis culpa. Voluptatibus est molestiae et est maxime consequatur cupiditate laborum dolores. Nisi libero officia impedit molestias. Aut qui autem et est et fuga non quidem culpa. Maxime delectus fuga est sed consequuntur ad.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-03.jpg"
+      },
+      {
+        "id": "6826e8d9-fcea-46ec-b588-ba342d28decf",
+        "name": "Camiseta Ramones",
+        "price_in_cents": 5510,
+        "category": "t-shirts",
+        "sales": 15,
+        "created_at": "2023-04-05T18:25:30.512Z",
+        "description": "Quod excepturi eveniet distinctio omnis dolores qui at aut ad. Et error dolores beatae debitis quas. Et nesciunt commodi magnam itaque praesentium iure distinctio earum. Corrupti esse adipisci nulla rerum.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-04.jpg"
+      },
+      {
+        "id": "7f09a5c4-3992-4baa-bf64-0357024f73f2",
+        "name": "Caneca preto fosco",
+        "price_in_cents": 4110,
+        "category": "mugs",
+        "sales": 4,
+        "created_at": "2022-12-09T19:42:05.507Z",
+        "description": "Ut hic minima pariatur totam soluta esse quia. Dicta et sunt at. Eveniet aut ipsam qui quo voluptates eveniet distinctio. Dolore itaque eveniet quia illo qui id. Molestiae illum animi eligendi nisi quia inventore.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-01.jpg"
+      },
+      {
+        "id": "8ce8fef8-352e-442c-86b1-2ee17608f482",
+        "name": "Camiseta DREAMER",
+        "price_in_cents": 7926,
+        "category": "t-shirts",
+        "sales": 31,
+        "created_at": "2023-05-16T12:29:15.033Z",
+        "description": "Ut qui omnis fugit culpa cupiditate ut. Qui voluptatem aliquam et eum praesentium quia quaerat voluptate. Voluptas earum exercitationem nobis.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-01.jpg"
+      },
+      {
+        "id": "2594387d-9f3d-47ed-ae22-18c330e6cb29",
+        "name": "Caneca Black Ring",
+        "price_in_cents": 5705,
+        "category": "mugs",
+        "sales": 23,
+        "created_at": "2023-06-26T20:54:36.347Z",
+        "description": "Dignissimos delectus veritatis. Sit perferendis ut fuga. Earum dolorem suscipit.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-04.jpg"
+      },
+      {
+        "id": "2044cba6-2e40-4b02-ab7d-60a77d1b5f2a",
+        "name": "Caneca Decaf! P&Co",
+        "price_in_cents": 9399,
+        "category": "mugs",
+        "sales": 35,
+        "created_at": "2022-11-29T05:22:15.250Z",
+        "description": "Et rerum ab sint. Rerum et et eos et nisi laudantium eum. Et voluptas aut sint vitae eveniet quaerat et ut quia. Quisquam placeat rerum ipsam hic.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-02.jpg"
+      },
+      {
+        "id": "2362ac8f-6a01-40a0-a694-d862e4a40462",
+        "name": "Camiseta Broken Saints",
+        "price_in_cents": 5231,
+        "category": "t-shirts",
+        "sales": 9,
+        "created_at": "2023-04-17T14:00:42.416Z",
+        "description": "Molestiae rerum ea a. Ab accusamus delectus fuga sed natus saepe ducimus soluta voluptatem. Qui commodi nam cupiditate magnam unde veniam quia ducimus. Esse molestias dolorum. Perspiciatis ut velit sed dignissimos autem at est ut soluta.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-03.jpg"
+      },
+      {
+        "id": "1c662663-4bee-4697-b111-f4a2f82a20b9",
+        "name": "Camiseta Outcast",
+        "price_in_cents": 3890,
+        "category": "t-shirts",
+        "sales": 12,
+        "created_at": "2023-03-13T14:33:35.822Z",
+        "description": "Necessitatibus expedita deserunt necessitatibus consequatur vel id cumque. Ea vero provident reprehenderit et sit dolore voluptatibus ut. Cumque provident et quo.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-06.jpg"
+      },
+      {
+        "id": "1d4dcb08-2abe-46eb-9cfc-6d1aec7e3af4",
+        "name": "Caneca de cerâmica rústica",
+        "price_in_cents": 7391,
+        "category": "mugs",
+        "sales": 8,
+        "created_at": "2022-11-20T09:23:52.210Z",
+        "description": "Officiis dolores voluptas molestias animi recusandae et veniam nobis amet. Deserunt omnis unde explicabo aut pariatur autem. Ea facilis voluptatem omnis illo esse. Adipisci explicabo sed quos iure omnis qui nam sequi et.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-06.jpg"
+      },
+      {
+        "id": "485b8aaa-6fdd-481f-acaf-77c9354e63f0",
+        "name": "Camiseta not today.",
+        "price_in_cents": 6460,
+        "category": "t-shirts",
+        "sales": 7,
+        "created_at": "2023-09-21T07:09:48.220Z",
+        "description": "Et quisquam repudiandae voluptatem rerum quaerat nostrum et dolorem eaque. Cupiditate reiciendis asperiores voluptatem amet molestiae sed et sint excepturi. Minima et accusantium debitis praesentium et praesentium in.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-05.jpg"
+      },
+      {
+        "id": "efa2c20b-7fd7-44db-8777-522483a543f6",
+        "name": "Caneca Decaf! P&Co",
+        "price_in_cents": 9922,
+        "category": "mugs",
+        "sales": 13,
+        "created_at": "2023-04-14T09:20:49.164Z",
+        "description": "Et rerum ab sint. Rerum et et eos et nisi laudantium eum. Et voluptas aut sint vitae eveniet quaerat et ut quia. Quisquam placeat rerum ipsam hic.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-02.jpg"
+      },
+      {
+        "id": "9a60ed45-4fbd-4f58-a856-488449179f3c",
+        "name": "Camiseta Ramones",
+        "price_in_cents": 6891,
+        "category": "t-shirts",
+        "sales": 7,
+        "created_at": "2023-04-29T18:13:11.094Z",
+        "description": "Quod excepturi eveniet distinctio omnis dolores qui at aut ad. Et error dolores beatae debitis quas. Et nesciunt commodi magnam itaque praesentium iure distinctio earum. Corrupti esse adipisci nulla rerum.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-04.jpg"
+      },
+      {
+        "id": "d412bfff-80ff-4146-8ed0-836b374ce153",
+        "name": "Caneca preto fosco",
+        "price_in_cents": 5185,
+        "category": "mugs",
+        "sales": 19,
+        "created_at": "2023-09-07T07:06:13.383Z",
+        "description": "Ut hic minima pariatur totam soluta esse quia. Dicta et sunt at. Eveniet aut ipsam qui quo voluptates eveniet distinctio. Dolore itaque eveniet quia illo qui id. Molestiae illum animi eligendi nisi quia inventore.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-01.jpg"
+      },
+      {
+        "id": "89d252a9-d74b-4394-80a7-513f009b55df",
+        "name": "Caneca Black Ring",
+        "price_in_cents": 7540,
+        "category": "mugs",
+        "sales": 36,
+        "created_at": "2022-10-15T12:03:48.209Z",
+        "description": "Dignissimos delectus veritatis. Sit perferendis ut fuga. Earum dolorem suscipit.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-04.jpg"
+      },
+      {
+        "id": "d656b33c-b614-409e-83c9-e5aa220cf0a7",
+        "name": "Caneca Never settle",
+        "price_in_cents": 9337,
+        "category": "mugs",
+        "sales": 3,
+        "created_at": "2022-10-21T03:10:07.932Z",
+        "description": "Maiores nulla veniam in ratione deleniti molestiae officiis culpa. Voluptatibus est molestiae et est maxime consequatur cupiditate laborum dolores. Nisi libero officia impedit molestias. Aut qui autem et est et fuga non quidem culpa. Maxime delectus fuga est sed consequuntur ad.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-03.jpg"
+      },
+      {
+        "id": "0e125d9f-b58f-4c22-8ae1-9306a5c52466",
+        "name": "Camiseta Broken Saints",
+        "price_in_cents": 4879,
+        "category": "t-shirts",
+        "sales": 40,
+        "created_at": "2023-07-07T18:20:33.098Z",
+        "description": "Molestiae rerum ea a. Ab accusamus delectus fuga sed natus saepe ducimus soluta voluptatem. Qui commodi nam cupiditate magnam unde veniam quia ducimus. Esse molestias dolorum. Perspiciatis ut velit sed dignissimos autem at est ut soluta.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-03.jpg"
+      },
+      {
+        "id": "11b128a2-04f7-46aa-a55d-2d627420ba6a",
+        "name": "Camiseta Outcast",
+        "price_in_cents": 8653,
+        "category": "t-shirts",
+        "sales": 33,
+        "created_at": "2023-09-18T21:02:32.425Z",
+        "description": "Necessitatibus expedita deserunt necessitatibus consequatur vel id cumque. Ea vero provident reprehenderit et sit dolore voluptatibus ut. Cumque provident et quo.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-06.jpg"
+      },
+      {
+        "id": "3304ef9d-fb64-4d47-9e8c-34f31068b6bd",
+        "name": "Caneca The Grounds",
+        "price_in_cents": 4633,
+        "category": "mugs",
+        "sales": 9,
+        "created_at": "2023-03-22T02:01:51.905Z",
+        "description": "Magni earum alias quae est voluptatum sed vero. Dolorem repudiandae cum sed vel vitae ut ipsam at. Voluptatum sunt atque consequatur consequatur. Officia perspiciatis amet laboriosam voluptas.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-05.jpg"
+      },
+      {
+        "id": "fa176239-c5eb-4ca0-95bd-12277fd6c162",
+        "name": "Camiseta DREAMER",
+        "price_in_cents": 7795,
+        "category": "t-shirts",
+        "sales": 27,
+        "created_at": "2022-12-19T02:34:41.159Z",
+        "description": "Ut qui omnis fugit culpa cupiditate ut. Qui voluptatem aliquam et eum praesentium quia quaerat voluptate. Voluptas earum exercitationem nobis.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-01.jpg"
+      },
+      {
+        "id": "d69b8ccb-271a-4780-a5b2-a66714445c5b",
+        "name": "Camiseta evening",
+        "price_in_cents": 8560,
+        "category": "t-shirts",
+        "sales": 7,
+        "created_at": "2023-01-24T02:33:58.857Z",
+        "description": "Iste velit fuga hic veniam. Quaerat sunt similique nihil consequatur neque ut. Nobis in aut excepturi quas amet ad optio culpa. Enim nobis ea deserunt aut dolore veritatis alias. Libero sunt tenetur.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-02.jpg"
+      },
+      {
+        "id": "a06bdafc-f310-4da4-aec4-f8f2ac793d33",
+        "name": "Caneca de cerâmica rústica",
+        "price_in_cents": 3587,
+        "category": "mugs",
+        "sales": 21,
+        "created_at": "2023-06-17T23:03:15.992Z",
+        "description": "Officiis dolores voluptas molestias animi recusandae et veniam nobis amet. Deserunt omnis unde explicabo aut pariatur autem. Ea facilis voluptatem omnis illo esse. Adipisci explicabo sed quos iure omnis qui nam sequi et.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-06.jpg"
+      },
+      {
+        "id": "79fe3071-1ef0-4603-a325-42b62a9677c9",
+        "name": "Camiseta Outcast",
+        "price_in_cents": 4243,
+        "category": "t-shirts",
+        "sales": 35,
+        "created_at": "2023-01-24T23:46:55.915Z",
+        "description": "Necessitatibus expedita deserunt necessitatibus consequatur vel id cumque. Ea vero provident reprehenderit et sit dolore voluptatibus ut. Cumque provident et quo.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-06.jpg"
+      },
+      {
+        "id": "e2e0e223-84ab-499a-842d-d757d6f6d31b",
+        "name": "Camiseta Broken Saints",
+        "price_in_cents": 7003,
+        "category": "t-shirts",
+        "sales": 19,
+        "created_at": "2022-12-14T10:38:44.938Z",
+        "description": "Molestiae rerum ea a. Ab accusamus delectus fuga sed natus saepe ducimus soluta voluptatem. Qui commodi nam cupiditate magnam unde veniam quia ducimus. Esse molestias dolorum. Perspiciatis ut velit sed dignissimos autem at est ut soluta.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-03.jpg"
+      },
+      {
+        "id": "626db059-bff5-4b36-b179-9a6b7513154b",
+        "name": "Camiseta not today.",
+        "price_in_cents": 6065,
+        "category": "t-shirts",
+        "sales": 40,
+        "created_at": "2023-07-02T11:39:40.724Z",
+        "description": "Et quisquam repudiandae voluptatem rerum quaerat nostrum et dolorem eaque. Cupiditate reiciendis asperiores voluptatem amet molestiae sed et sint excepturi. Minima et accusantium debitis praesentium et praesentium in.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-05.jpg"
+      },
+      {
+        "id": "2f966a33-7b77-40d0-b1e3-663990b5687f",
+        "name": "Caneca Never settle",
+        "price_in_cents": 4258,
+        "category": "mugs",
+        "sales": 5,
+        "created_at": "2022-12-25T06:48:27.295Z",
+        "description": "Maiores nulla veniam in ratione deleniti molestiae officiis culpa. Voluptatibus est molestiae et est maxime consequatur cupiditate laborum dolores. Nisi libero officia impedit molestias. Aut qui autem et est et fuga non quidem culpa. Maxime delectus fuga est sed consequuntur ad.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-03.jpg"
+      },
+      {
+        "id": "86c6ef8b-fda8-4f9c-b48f-1c005aa47ae5",
+        "name": "Caneca preto fosco",
+        "price_in_cents": 9290,
+        "category": "mugs",
+        "sales": 39,
+        "created_at": "2023-07-21T20:34:03.159Z",
+        "description": "Ut hic minima pariatur totam soluta esse quia. Dicta et sunt at. Eveniet aut ipsam qui quo voluptates eveniet distinctio. Dolore itaque eveniet quia illo qui id. Molestiae illum animi eligendi nisi quia inventore.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-01.jpg"
+      },
+      {
+        "id": "ee94734b-396e-4b6a-89cd-396dec38455b",
+        "name": "Caneca Black Ring",
+        "price_in_cents": 9885,
+        "category": "mugs",
+        "sales": 21,
+        "created_at": "2023-09-15T23:58:14.204Z",
+        "description": "Dignissimos delectus veritatis. Sit perferendis ut fuga. Earum dolorem suscipit.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-04.jpg"
+      },
+      {
+        "id": "f7bbd9b9-2d97-4213-bdc9-3bfb1cd5fae0",
+        "name": "Camiseta evening",
+        "price_in_cents": 8876,
+        "category": "t-shirts",
+        "sales": 37,
+        "created_at": "2023-01-22T19:16:28.703Z",
+        "description": "Iste velit fuga hic veniam. Quaerat sunt similique nihil consequatur neque ut. Nobis in aut excepturi quas amet ad optio culpa. Enim nobis ea deserunt aut dolore veritatis alias. Libero sunt tenetur.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-02.jpg"
+      },
+      {
+        "id": "69b2932a-95dc-4b0d-a308-0cc60d376b2a",
+        "name": "Camiseta Ramones",
+        "price_in_cents": 3492,
+        "category": "t-shirts",
+        "sales": 30,
+        "created_at": "2023-01-30T23:06:04.817Z",
+        "description": "Quod excepturi eveniet distinctio omnis dolores qui at aut ad. Et error dolores beatae debitis quas. Et nesciunt commodi magnam itaque praesentium iure distinctio earum. Corrupti esse adipisci nulla rerum.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-04.jpg"
+      },
+      {
+        "id": "2ffcde17-00fd-49f9-8e28-f0f742b45068",
+        "name": "Camiseta DREAMER",
+        "price_in_cents": 6698,
+        "category": "t-shirts",
+        "sales": 30,
+        "created_at": "2023-09-25T23:08:34.050Z",
+        "description": "Ut qui omnis fugit culpa cupiditate ut. Qui voluptatem aliquam et eum praesentium quia quaerat voluptate. Voluptas earum exercitationem nobis.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-01.jpg"
+      },
+      {
+        "id": "08559f47-5441-4ffb-9f77-b79efdf94901",
+        "name": "Caneca The Grounds",
+        "price_in_cents": 4091,
+        "category": "mugs",
+        "sales": 27,
+        "created_at": "2023-04-09T02:08:49.117Z",
+        "description": "Magni earum alias quae est voluptatum sed vero. Dolorem repudiandae cum sed vel vitae ut ipsam at. Voluptatum sunt atque consequatur consequatur. Officia perspiciatis amet laboriosam voluptas.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-05.jpg"
+      },
+      {
+        "id": "11c7e5de-04de-47aa-9918-86a72785b32d",
+        "name": "Caneca Decaf! P&Co",
+        "price_in_cents": 4000,
+        "category": "mugs",
+        "sales": 31,
+        "created_at": "2023-02-04T17:59:36.888Z",
+        "description": "Et rerum ab sint. Rerum et et eos et nisi laudantium eum. Et voluptas aut sint vitae eveniet quaerat et ut quia. Quisquam placeat rerum ipsam hic.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-02.jpg"
+      },
+      {
+        "id": "52bb1d18-f13e-42d8-8c13-922fb8b7a3d4",
+        "name": "Camiseta Ramones",
+        "price_in_cents": 5466,
+        "category": "t-shirts",
+        "sales": 3,
+        "created_at": "2023-07-27T14:18:44.339Z",
+        "description": "Quod excepturi eveniet distinctio omnis dolores qui at aut ad. Et error dolores beatae debitis quas. Et nesciunt commodi magnam itaque praesentium iure distinctio earum. Corrupti esse adipisci nulla rerum.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-04.jpg"
+      },
+      {
+        "id": "df6ff509-cbe5-48ec-9f25-0a7f06a6967b",
+        "name": "Caneca de cerâmica rústica",
+        "price_in_cents": 5570,
+        "category": "mugs",
+        "sales": 0,
+        "created_at": "2022-10-30T04:47:51.659Z",
+        "description": "Officiis dolores voluptas molestias animi recusandae et veniam nobis amet. Deserunt omnis unde explicabo aut pariatur autem. Ea facilis voluptatem omnis illo esse. Adipisci explicabo sed quos iure omnis qui nam sequi et.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-06.jpg"
+      },
+      {
+        "id": "c3f12c32-a74f-4a4f-9eba-bce14109c0dd",
+        "name": "Camiseta not today.",
+        "price_in_cents": 4883,
+        "category": "t-shirts",
+        "sales": 27,
+        "created_at": "2023-01-16T22:49:18.784Z",
+        "description": "Et quisquam repudiandae voluptatem rerum quaerat nostrum et dolorem eaque. Cupiditate reiciendis asperiores voluptatem amet molestiae sed et sint excepturi. Minima et accusantium debitis praesentium et praesentium in.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-05.jpg"
+      },
+      {
+        "id": "498454d8-0cb5-4e55-877e-93e12d2d95ba",
+        "name": "Caneca Black Ring",
+        "price_in_cents": 3879,
+        "category": "mugs",
+        "sales": 36,
+        "created_at": "2023-06-03T07:48:37.695Z",
+        "description": "Dignissimos delectus veritatis. Sit perferendis ut fuga. Earum dolorem suscipit.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-04.jpg"
+      },
+      {
+        "id": "9f0d892e-f1cc-4461-aab2-49eda836c9e5",
+        "name": "Camiseta Broken Saints",
+        "price_in_cents": 9321,
+        "category": "t-shirts",
+        "sales": 18,
+        "created_at": "2023-09-01T02:29:07.337Z",
+        "description": "Molestiae rerum ea a. Ab accusamus delectus fuga sed natus saepe ducimus soluta voluptatem. Qui commodi nam cupiditate magnam unde veniam quia ducimus. Esse molestias dolorum. Perspiciatis ut velit sed dignissimos autem at est ut soluta.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-03.jpg"
+      },
+      {
+        "id": "0fda1794-cd30-4ab8-9388-8251dfc7c6b8",
+        "name": "Camiseta Outcast",
+        "price_in_cents": 6197,
+        "category": "t-shirts",
+        "sales": 28,
+        "created_at": "2022-10-08T13:53:26.337Z",
+        "description": "Necessitatibus expedita deserunt necessitatibus consequatur vel id cumque. Ea vero provident reprehenderit et sit dolore voluptatibus ut. Cumque provident et quo.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-06.jpg"
+      },
+      {
+        "id": "b996aecb-eec1-4a4f-988f-ba8c62cc5cea",
+        "name": "Camiseta DREAMER",
+        "price_in_cents": 7606,
+        "category": "t-shirts",
+        "sales": 40,
+        "created_at": "2023-09-04T12:35:50.495Z",
+        "description": "Ut qui omnis fugit culpa cupiditate ut. Qui voluptatem aliquam et eum praesentium quia quaerat voluptate. Voluptas earum exercitationem nobis.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-01.jpg"
+      },
+      {
+        "id": "9298f201-8eea-4956-adc8-c05cc0c2aa54",
+        "name": "Caneca The Grounds",
+        "price_in_cents": 7457,
+        "category": "mugs",
+        "sales": 10,
+        "created_at": "2023-06-19T06:05:00.475Z",
+        "description": "Magni earum alias quae est voluptatum sed vero. Dolorem repudiandae cum sed vel vitae ut ipsam at. Voluptatum sunt atque consequatur consequatur. Officia perspiciatis amet laboriosam voluptas.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-05.jpg"
+      },
+      {
+        "id": "ceb5f95c-7d53-4fdd-ba4f-bb86e4fc649d",
+        "name": "Camiseta evening",
+        "price_in_cents": 3822,
+        "category": "t-shirts",
+        "sales": 3,
+        "created_at": "2023-09-01T00:07:26.842Z",
+        "description": "Iste velit fuga hic veniam. Quaerat sunt similique nihil consequatur neque ut. Nobis in aut excepturi quas amet ad optio culpa. Enim nobis ea deserunt aut dolore veritatis alias. Libero sunt tenetur.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-02.jpg"
+      },
+      {
+        "id": "85224961-a4fb-4efa-85ff-14f2e2f40b90",
+        "name": "Caneca Decaf! P&Co",
+        "price_in_cents": 4566,
+        "category": "mugs",
+        "sales": 17,
+        "created_at": "2023-07-07T04:06:57.407Z",
+        "description": "Et rerum ab sint. Rerum et et eos et nisi laudantium eum. Et voluptas aut sint vitae eveniet quaerat et ut quia. Quisquam placeat rerum ipsam hic.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-02.jpg"
+      },
+      {
+        "id": "03e5df52-de98-4011-92e0-5af029541ff9",
+        "name": "Caneca preto fosco",
+        "price_in_cents": 2488,
+        "category": "mugs",
+        "sales": 37,
+        "created_at": "2023-03-31T06:23:32.481Z",
+        "description": "Ut hic minima pariatur totam soluta esse quia. Dicta et sunt at. Eveniet aut ipsam qui quo voluptates eveniet distinctio. Dolore itaque eveniet quia illo qui id. Molestiae illum animi eligendi nisi quia inventore.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-01.jpg"
+      },
+      {
+        "id": "0f5ff37d-996f-4d1b-b116-cfe4f237105e",
+        "name": "Caneca Never settle",
+        "price_in_cents": 5389,
+        "category": "mugs",
+        "sales": 38,
+        "created_at": "2023-07-29T02:06:16.316Z",
+        "description": "Maiores nulla veniam in ratione deleniti molestiae officiis culpa. Voluptatibus est molestiae et est maxime consequatur cupiditate laborum dolores. Nisi libero officia impedit molestias. Aut qui autem et est et fuga non quidem culpa. Maxime delectus fuga est sed consequuntur ad.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-03.jpg"
+      },
+      {
+        "id": "3284bcf3-5546-48c2-9889-cf13b4a72803",
+        "name": "Caneca The Grounds",
+        "price_in_cents": 3116,
+        "category": "mugs",
+        "sales": 14,
+        "created_at": "2023-08-10T09:45:10.614Z",
+        "description": "Magni earum alias quae est voluptatum sed vero. Dolorem repudiandae cum sed vel vitae ut ipsam at. Voluptatum sunt atque consequatur consequatur. Officia perspiciatis amet laboriosam voluptas.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-05.jpg"
+      },
+      {
+        "id": "819ea3ae-cb4e-467a-8b84-afe16a1e8f70",
+        "name": "Caneca Never settle",
+        "price_in_cents": 6852,
+        "category": "mugs",
+        "sales": 5,
+        "created_at": "2023-08-29T06:38:38.332Z",
+        "description": "Maiores nulla veniam in ratione deleniti molestiae officiis culpa. Voluptatibus est molestiae et est maxime consequatur cupiditate laborum dolores. Nisi libero officia impedit molestias. Aut qui autem et est et fuga non quidem culpa. Maxime delectus fuga est sed consequuntur ad.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-03.jpg"
+      },
+      {
+        "id": "09522196-d0cc-4b47-af61-94c673f4525c",
+        "name": "Camiseta Ramones",
+        "price_in_cents": 3702,
+        "category": "t-shirts",
+        "sales": 40,
+        "created_at": "2023-05-15T04:59:46.019Z",
+        "description": "Quod excepturi eveniet distinctio omnis dolores qui at aut ad. Et error dolores beatae debitis quas. Et nesciunt commodi magnam itaque praesentium iure distinctio earum. Corrupti esse adipisci nulla rerum.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-04.jpg"
+      },
+      {
+        "id": "d3317083-709f-4ca7-9246-512337d9a477",
+        "name": "Caneca preto fosco",
+        "price_in_cents": 8984,
+        "category": "mugs",
+        "sales": 32,
+        "created_at": "2023-05-07T03:55:34.659Z",
+        "description": "Ut hic minima pariatur totam soluta esse quia. Dicta et sunt at. Eveniet aut ipsam qui quo voluptates eveniet distinctio. Dolore itaque eveniet quia illo qui id. Molestiae illum animi eligendi nisi quia inventore.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-01.jpg"
+      },
+      {
+        "id": "66ccff12-a093-4e16-8c4a-23fcbbb32f3c",
+        "name": "Caneca de cerâmica rústica",
+        "price_in_cents": 2530,
+        "category": "mugs",
+        "sales": 3,
+        "created_at": "2023-07-18T04:31:01.115Z",
+        "description": "Officiis dolores voluptas molestias animi recusandae et veniam nobis amet. Deserunt omnis unde explicabo aut pariatur autem. Ea facilis voluptatem omnis illo esse. Adipisci explicabo sed quos iure omnis qui nam sequi et.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-06.jpg"
+      },
+      {
+        "id": "1d983372-1aca-452f-87c9-61a1c35040ec",
+        "name": "Caneca Black Ring",
+        "price_in_cents": 9704,
+        "category": "mugs",
+        "sales": 27,
+        "created_at": "2022-10-21T23:25:44.121Z",
+        "description": "Dignissimos delectus veritatis. Sit perferendis ut fuga. Earum dolorem suscipit.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-04.jpg"
+      },
+      {
+        "id": "1e23c05b-bdab-4c46-b548-fffb563b7985",
+        "name": "Camiseta DREAMER",
+        "price_in_cents": 6878,
+        "category": "t-shirts",
+        "sales": 28,
+        "created_at": "2023-02-03T19:30:27.059Z",
+        "description": "Ut qui omnis fugit culpa cupiditate ut. Qui voluptatem aliquam et eum praesentium quia quaerat voluptate. Voluptas earum exercitationem nobis.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-01.jpg"
+      },
+      {
+        "id": "6ef754f9-0482-42c5-8932-5f5d66ddf73e",
+        "name": "Caneca Decaf! P&Co",
+        "price_in_cents": 3988,
+        "category": "mugs",
+        "sales": 15,
+        "created_at": "2023-02-08T11:24:44.650Z",
+        "description": "Et rerum ab sint. Rerum et et eos et nisi laudantium eum. Et voluptas aut sint vitae eveniet quaerat et ut quia. Quisquam placeat rerum ipsam hic.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/caneca-02.jpg"
+      },
+      {
+        "id": "31b79bfb-5875-4df6-814c-fc1674a2ee87",
+        "name": "Camiseta Broken Saints",
+        "price_in_cents": 2824,
+        "category": "t-shirts",
+        "sales": 13,
+        "created_at": "2023-01-26T17:40:36.458Z",
+        "description": "Molestiae rerum ea a. Ab accusamus delectus fuga sed natus saepe ducimus soluta voluptatem. Qui commodi nam cupiditate magnam unde veniam quia ducimus. Esse molestias dolorum. Perspiciatis ut velit sed dignissimos autem at est ut soluta.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-03.jpg"
+      },
+      {
+        "id": "b4013ec0-f0ec-4581-8a37-f11716d5dadd",
+        "name": "Camiseta not today.",
+        "price_in_cents": 2997,
+        "category": "t-shirts",
+        "sales": 15,
+        "created_at": "2023-02-04T03:53:13.208Z",
+        "description": "Et quisquam repudiandae voluptatem rerum quaerat nostrum et dolorem eaque. Cupiditate reiciendis asperiores voluptatem amet molestiae sed et sint excepturi. Minima et accusantium debitis praesentium et praesentium in.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-05.jpg"
+      },
+      {
+        "id": "c37b91e9-05fe-412b-ab96-ed8f17f7b47c",
+        "name": "Camiseta evening",
+        "price_in_cents": 3564,
+        "category": "t-shirts",
+        "sales": 30,
+        "created_at": "2023-01-25T03:51:35.704Z",
+        "description": "Iste velit fuga hic veniam. Quaerat sunt similique nihil consequatur neque ut. Nobis in aut excepturi quas amet ad optio culpa. Enim nobis ea deserunt aut dolore veritatis alias. Libero sunt tenetur.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-02.jpg"
+      },
+      {
+        "id": "ac5a04a0-d741-4438-abce-7ea57c15a960",
+        "name": "Camiseta Outcast",
+        "price_in_cents": 8442,
+        "category": "t-shirts",
+        "sales": 40,
+        "created_at": "2023-03-23T04:01:52.643Z",
+        "description": "Necessitatibus expedita deserunt necessitatibus consequatur vel id cumque. Ea vero provident reprehenderit et sit dolore voluptatibus ut. Cumque provident et quo.",
+        "image_url": "https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-06.jpg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>capputeeno</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body onload="fadeInBody()">
+
+    <header>
+        <a href="../index.html">capputeeno</a>
+        <div class="menu">
+            <div class="input-box">
+                <input type="text" placeholder="Procurando por algo especifico?">
+                <button type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 26 26" fill="none">
+                    <circle cx="12.059" cy="12.0586" r="7.06194" stroke="#737380" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M21.0034 21.0033L17.0518 17.0517" stroke="#737380" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+            </div>
+            <a href="index.html" class="cart-btn">
+                <div class="cart-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M4 7V5C4 4.44772 4.44772 4 5 4H19C19.5523 4 20 4.44772 20 5V7" stroke="#737380" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M20 7H4C3.44772 7 3 7.44772 3 8V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V8C21 7.44772 20.5523 7 20 7Z" stroke="#737380" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M16 11C16 13.2091 14.2091 15 12 15C9.79086 15 8 13.2091 8 11" stroke="#737380" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="cart-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 17 17" fill="none">
+                        <circle cx="8.5" cy="8.5" r="8.5" fill="#DE3838"/>
+                    </svg>
+                    <p id="cart-count" class="cart-count"></p>
+                </div>
+            </a>
+        </div>
+    </header>
+
+    <section class="cart-container">
+
+        <div class="cart">
+            <div class="go-back">
+                <a href="#" onclick="history.back(); return false;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Group">
+                            <g id="Group_2">
+                                <path id="Path" d="M18.3639 5.63604C21.8787 9.15076 21.8787 14.8492 18.3639 18.3639C14.8492 21.8787 9.15074 21.8787 5.63604 18.3639C2.12132 14.8492 2.12132 9.15074 5.63604 5.63604C9.15076 2.12132 14.8492 2.12132 18.3639 5.63604" stroke="#617480" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path id="Path_2" d="M10 13L7.5 10.5L10 8" stroke="#617480" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path id="Path_3" d="M11.5 16H12.75C14.269 16 15.5 14.769 15.5 13.25V13.25C15.5 11.731 14.269 10.5 12.75 10.5H11.5H7.5" stroke="#617480" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </g>
+                    </svg>
+                </i>Voltar</a>
+            </div>
+            <h1>SEU CARRINHO</h1>
+            <p>Total (<a id="cart-count2"></a> produtos) <b id="total-price"></b></p>
+            <ul class="cart-list"></ul>
+        </div>
+
+        <div class="resume">
+            <h3>RESUMO DO PEDIDO</h3>
+            <p>Subtotal de produtos <a id="total-price2"></a></p>
+            <p>Entrega <a id="delivery"></a></p>
+            <hr>
+            <b>Total <a id="total"></a></b> <br>
+            <button>FINALIZAR A COMPRA</button> <br>
+            <ul class="help">
+                <a href="#">AJUDA</a> <br>
+                <a href="#">REEMBOLSOS</a> <br>
+                <a href="#">ENTREGAS E FRETE</a> <br>
+                <a href="#">TROCAS E DEVOLUÇÕES</a>
+            </ul>
+        </div>
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../script.js"></script>
+    <script src="../product/script.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>

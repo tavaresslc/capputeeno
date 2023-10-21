@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>capputeeno</title>
+    <link rel="stylesheet" href="./src/main.css" />
+    <style>
+      .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+      }
+      h2 {
+        color: #41414D;
+        font-family: Saira;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 800;
+        cursor: default;
+        user-select: none;
+      }
+      a {
+        color: #5d5d6d;
+        font-family: Saira Stencil One;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        text-decoration: none;
+        margin-bottom: 32px;
+      }
+      .form.selected {
+        display: flex;
+      }
+      .form {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.4);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        gap: 8px;
+      }
+      .form input {
+        margin: 10px;
+        padding: 15px;
+        border-radius: 10px;
+        background: var(--shapes-light-88-gray);
+        color: #09090a;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+      }
+      .submit {
+        margin: 10px;
+        padding: 4px 12px;
+        border: 1px solid;
+        border-radius: 10px;
+        background-color: #41414D;
+        color: #fff;
+        font-family: Saira;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .toggle {
+        background-color: transparent;
+        border: none;
+        text-decoration: underline;
+        color: #5d5d6d;
+        font-family: Saira;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        cursor: pointer;
+      }
+      @media (max-width: 768px) {
+        a {
+          font-size: 48px;
+        }
+      }
+    </style>
+    <script>
+      const form = document.getElementsByClassName("form");
+      function clearFields() {
+        document.getElementById("signupEmail").value = "";
+        document.getElementById("signupPassword").value = "";
+        document.getElementById("loginEmail").value = "";
+        document.getElementById("loginPassword").value = "";
+      }
+      function signUp() {
+        var email = document.getElementById("signupEmail").value;
+        var password = document.getElementById("signupPassword").value;
+        if (email === "" || password === "") {
+          alert("Por favor, preencha todos os campos.");
+          return;
+        }
+        var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+        if (!email.match(emailPattern)) {
+          alert("Por favor, insira um endereço de e-mail válido.");
+          return;
+        }
+        var passwordPattern = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
+        if (!password.match(passwordPattern)) {
+          alert(
+            "A senha deve conter pelo menos 8 caracteres, incluindo letras maiúsculas e números."
+          );
+          return;
+        }
+        if (localStorage.getItem(email) !== null) {
+          alert("Este email já está em uso. Por favor, escolha outro.");
+          return;
+        }
+        localStorage.setItem(email, password);
+        alert("Conta criada com sucesso!");
+        document.getElementsByClassName("form")[0].classList.remove("selected");
+        document.getElementsByClassName("form")[1].classList.add("selected");
+        clearFields();
+      }
+      function logIn() {
+        var email = document.getElementById("loginEmail").value;
+        var password = document.getElementById("loginPassword").value;
+        if (email === "" || password === "") {
+          alert("Por favor, preencha todos os campos.");
+          return;
+        }
+        if (localStorage.getItem(email) === password) {
+          location.href = "./src/index.html";
+        } else {
+          alert("Email ou senha incorretos. Por favor, tente novamente.");
+        }
+        clearFields();
+      }
+      document.addEventListener("keydown", (event) => {
+        if (form[0].classList.contains("selected") && event.key === "Enter") {
+          signUp();
+        } else if (
+          form[1].classList.contains("selected") &&
+          event.key === "Enter"
+        ) {
+          logIn();
+        }
+      });
+      function show() {
+        if (form[0].classList.contains("selected")) {
+          form[0].classList.remove("selected");
+          form[1].classList.add("selected");
+        } else if (form[1].classList.contains("selected")) {
+          form[1].classList.remove("selected");
+          form[0].classList.add("selected");
+        }
+        clearFields();
+      }
+      function fadeInBody() {
+        document.body.style.opacity = 1;
+      }
+    </script>
+  </head>
+  <body onload="fadeInBody(); clearFields();">
+    <div class="home">
+      <a href="index.html">capputeeno</a>
+      <div class="form">
+        <h2>Cadastro</h2>
+        <input type="text" id="signupEmail" placeholder="Email" />
+        <input type="password" id="signupPassword" placeholder="Senha" />
+        <button onclick="signUp()" class="submit">Cadastrar</button>
+        <button onclick="show()" class="toggle">Ja tenho uma conta</button>
+      </div>
+      <div class="form selected">
+        <h2>Login</h2>
+        <input type="text" id="loginEmail" placeholder="Email" />
+        <input type="password" id="loginPassword" placeholder="Senha" />
+        <button onclick="logIn()" class="submit">Entrar</button>
+        <button onclick="show()" class="toggle">Ja tem uma conta?</button>
+      </div>
+    </div>
+  </body>
+</html>

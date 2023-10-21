@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    
+:root {
+    --shapes-01: #ffffff;
+    --shapes-02: #DCE2E5;
+    --shapes-light-92-gray: #f3f5f6;
+    --shapes-light-88-gray: #E9E9F0;
+    --shapes-light-background: #F5F5FA;
+    --textos-dark-textos-apoio: #737380;
+    --others-excluir: #DE3838;
+    --textos-dark-inputs-icons: #41414D;
+    --others-orange-low: #FFA585;
+    --shapes-dark-tooltip: #09090A;
+    --textos-textos: #617480;
+    --textos-dark-textos: #41414D;
+    --brand-blue: #115D8C;
+    --brand-blue-hover: #0F4D7B;
+}
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Saira;
+    height: 100vh;
+    background: var(--shapes-light-92-gray);
+    opacity: 0;
+    transition: opacity 1s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* header */
+
+header {
+    height: 80px;
+    padding: 20px 160px;
+    background-color: #fff;
+    width: 100%;
+    height: 80px;
+    flex-shrink: 0;
+    background: var(--shapes-01);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header a {
+    display: flex;
+    width: 544px;
+    height: 80px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #5D5D6D;
+    font-family: Saira Stencil One;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #5D5D6D;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.input-box {
+    display: flex;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    border-radius: 8px;
+    background: #F3F5F6;
+}
+
+input {
+    color: #000;
+    font-family: Saira;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; 
+    background-color: transparent;
+    border: none;
+    width: 230px;
+    height: 24px;
+}
+
+input:focus {
+    outline: none; 
+}
+
+::placeholder {
+    color: var(--textos-dark-textos-apoio);
+    font-family: Saira;
+}
+
+.input-box button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.cart-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1px;
+    height: 1px;
+    position: relative;
+    right: 0;
+    flex-shrink: 0;
+    margin-top: 50px;
+    margin-right: 15px;
+}
+
+.cart-circle {
+    position: relative;
+    top: -28px;
+    left: 12px;
+    flex-shrink: 0;
+    fill: var(--others-excluir, #DE3838);
+    color: #FFF;
+    text-align: center;
+    font-family: Saira;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+}
+
+.cart-count {
+    position: relative;
+    top: -30px;
+}
+
+/* Go back bar */
+
+.go-back {
+    width: 100%;
+    height: 71px;
+    background-color: transparent;
+    display: flex;
+    justify-content: start;
+    padding: 0px 160px;
+    padding-top: 25px;
+    padding-bottom: 22px;
+}
+
+.go-back a {
+    text-decoration: none;
+    width: 70px;
+    height: 24px;
+    color: var(--textos-textos);
+    font-family: Saira;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    text-align: center;
+}
+
+.go-back i {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 365px) {
+    body {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header {
+        width: 100%;
+        padding: 20px 20px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    header a {
+        width: 100%;
+        height: auto;
+        font-size: 280%;
+        text-align: center;
+    }
+
+    .menu {
+        width: 100%;
+        gap: 32px;
+    }
+
+    .input-box {
+        width: 80%;
+        gap: 10px;
+    }
+
+    .input-box input {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .cart-btn {
+        position: relative;
+        margin-bottom: 8px;
+    }
+
+    .cart-circle {
+        top: -32px;
+        left: 10px;
+        font-size: 10px;
+    }
+
+    .cart-count {
+        position: relative;
+        top: -30px;
+        left: 0.5px;
+    }
+
+    .go-back {
+        padding: 0px 20px;
+    }
+}
+
+@media (min-width: 365px) and (max-width: 576px) {
+    body {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header {
+        width: 100%;
+        padding: 20px 20px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    header a {
+        width: 100%;
+        height: auto;
+        font-size: 320%;
+        text-align: center;
+    }
+
+    .menu {
+        width: 100%;
+        gap: 32px;
+    }
+
+    .input-box {
+        width: 80%;
+        gap: 10px;
+    }
+
+    .input-box input {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .cart-btn {
+        position: relative;
+        margin-bottom: 8px;
+    }
+
+    .cart-circle {
+        top: -32px;
+        left: 10px;
+        font-size: 10px;
+    }
+
+    .cart-count {
+        position: relative;
+        top: -30px;
+        left: 0.5px;
+    }
+
+    .go-back {
+        padding: 0px 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+    body {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header {
+        width: 100%;
+        padding: 20px 24px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    header a {
+        width: 40%;
+        height: auto;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .input-box {
+        width: 100%;
+        gap: 16px;
+    }
+
+    .input-box input {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .menu {
+        width: 100%;
+        gap: 32px;
+    }
+
+    .go-back {
+        padding: 0px 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    body {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header {
+        width: 100%;
+        padding: 20px 32px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    header a {
+        width: 40%;
+        height: auto;
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .input-box {
+        width: 100%;
+        gap: 16px;
+    }
+
+    .input-box input {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .menu {
+        width: 100%;
+        gap: 48px;
+    }
+
+    .go-back {
+        padding: 0px 40px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    body {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header {
+        width: 100%;
+        padding: 20px 40px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    header a {
+        width: 40%;
+        height: auto;
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .input-box {
+        width: 100%;
+        gap: 16px;
+    }
+
+    .input-box input {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .menu {
+        width: 100%;
+        gap: 48px;
+    }
+
+    .go-back {
+        padding: 0px 40px;
+    }
+}
