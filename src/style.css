@@ -4,6 +4,7 @@
     padding: 0px 160px;
     display: flex;
     justify-content: space-between;
+    user-select: none;
 }
 
 .filter-by-type {
@@ -115,7 +116,7 @@
     align-items: center;
     justify-content: center;
     padding: 0px 160px;
-
+    user-select: none;
 }
 
 .products-list {
