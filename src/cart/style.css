@@ -1,10 +1,12 @@
 .go-back {
     margin-left: -160px;
+    user-select: none;
 }
 
 .cart-container {
     display: flex;
     justify-content: center;
+    user-select: none;
 }
 
 .cart {
