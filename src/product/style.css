@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 0px 160px;
+    user-select: none;
 }
 
 .product img {
@@ -136,6 +137,7 @@
     padding: 0px 160px;
     padding-top: 25px;
     padding-bottom: 22px;
+    user-select: none;
 }
 
 .go-back a {
